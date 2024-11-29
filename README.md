@@ -1,6 +1,6 @@
 # Judge0 deployment for Arbitre
 
-## Install
+## Deploy
 
 ```bash
 kubectl create secret generic judge0-secrets \
@@ -10,8 +10,6 @@ kubectl create secret generic judge0-secrets \
 kubectl apply -f configmap.yaml
 kubectl apply -f judge0.yaml
 ```
-
-## Develop
 
 Useful : port forwarding
 
