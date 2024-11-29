@@ -102,9 +102,6 @@ spec:
             privileged: true
           ports:
             - containerPort: 2358
-          envFrom:
-            - configMapRef:
-                name: judge0-config
           env:
             - name: POSTGRES_HOST
               value: postgres
